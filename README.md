@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/bharg/personal-website/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHARGAV KOUSHAL - Personal Website</title>
+    <link rel="stylesheet" href="./BHARGAV KOUSHAL - Personal Website_files/styles.css">
+    <link rel="stylesheet" href="./BHARGAV KOUSHAL - Personal Website_files/css2">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="header-wrapper">
+                    <div class="name-container">
+                        <div class="name-wrapper">
+                            <h1 class="name">BHARGAV KOUSHAL</h1>
+                            <div class="name-underline"></div>
+                        </div>
+                        <p class="tagline">NIT SRINAGAR</p>
+                    </div>
+                    <div class="profile-photo-container">
+                        <div class="photo-glow"></div>
+                        <img src="./BHARGAV KOUSHAL - Personal Website_files/profile.jpg" alt="Bhargav Koushal" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Bhargav Koushal</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">Hi, I'm Bhargav Koushal — a passionate tech enthusiast and budding programmer currently pursuing a B.Tech in my second semester. I serve as the Class Representative of my branch, taking pride in leadership and team collaboration.</p>
+                    
+                    <p>Ever since I discovered the world of coding, <span class="highlight">C++</span> has been my go-to language. I enjoy solving complex problems, building efficient logic, and constantly pushing the boundaries of what I can create. From crafting algorithms to exploring new tech stacks, my curiosity keeps me moving forward.</p>
+                    
+                    <p>Beyond academics, I value friendships and balance — making time for the people close to me, whether it's for a laugh, a late-night debug session, or a simple hangout.</p>
+                    
+                    <p class="about-outro">This website is a small window into my journey — my projects, thoughts, and the path I'm paving in the tech world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills &amp; Experience</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Front-end Development</h3>
+                    <ul>
+                        <li>HTML5 &amp; CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Back-end Development</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools &amp; Others</h3>
+                    <ul>
+                        <li>Git &amp; GitHub</li>
+                        <li>Responsive Design</li>
+                        <li>UI/UX Principles</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+            
+            <div class="contact-links">
+                <a href="mailto:bharagvkoushal289@gmail.com" class="contact-link">bharagvkoushal289@gmail.com</a>
+                <a href="https://linkedin.com/in/bhargavkoushal" class="contact-link">LinkedIn</a>
+                <a href="https://github.com/bhar7av" class="contact-link">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="year">2025</span> BHARGAV KOUSHAL. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+
+
+</body></html>
