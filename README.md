@@ -1,105 +1,104 @@
 <!DOCTYPE html>
-<!-- saved from url=(0050)file:///C:/Users/bharg/personal-website/index.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BHARGAV KOUSHAL - Personal Website</title>
-    <link rel="stylesheet" href="./BHARGAV KOUSHAL - Personal Website_files/styles.css">
-    <link rel="stylesheet" href="./BHARGAV KOUSHAL - Personal Website_files/css2">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Bhargav | Minimal Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <div class="header-wrapper">
-                    <div class="name-container">
-                        <div class="name-wrapper">
-                            <h1 class="name">BHARGAV KOUSHAL</h1>
-                            <div class="name-underline"></div>
-                        </div>
-                        <p class="tagline">NIT SRINAGAR</p>
-                    </div>
-                    <div class="profile-photo-container">
-                        <div class="photo-glow"></div>
-                        <img src="./BHARGAV KOUSHAL - Personal Website_files/profile.jpg" alt="Bhargav Koushal" class="profile-photo">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section id="about">
-        <div class="container">
-            <h2>About Bhargav Koushal</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p class="about-intro">Hi, I'm Bhargav Koushal — a passionate tech enthusiast and budding programmer currently pursuing a B.Tech in my second semester. I serve as the Class Representative of my branch, taking pride in leadership and team collaboration.</p>
-                    
-                    <p>Ever since I discovered the world of coding, <span class="highlight">C++</span> has been my go-to language. I enjoy solving complex problems, building efficient logic, and constantly pushing the boundaries of what I can create. From crafting algorithms to exploring new tech stacks, my curiosity keeps me moving forward.</p>
-                    
-                    <p>Beyond academics, I value friendships and balance — making time for the people close to me, whether it's for a laugh, a late-night debug session, or a simple hangout.</p>
-                    
-                    <p class="about-outro">This website is a small window into my journey — my projects, thoughts, and the path I'm paving in the tech world.</p>
-                </div>
-            </div>
-        </div>
+  <header class="fade-in">
+    <h1>Bhargav Koushal</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="about" class="fade-in">
+      <h2>About Me</h2>
+      <p>
+        Hello, I’m Bhargav—a creative developer passionate about crafting minimal, elegant web experiences.<br>
+        I enjoy turning ideas into clean, interactive interfaces and learning new things every day.
+      </p>
     </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills &amp; Experience</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>Front-end Development</h3>
-                    <ul>
-                        <li>HTML5 &amp; CSS3</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Back-end Development</h3>
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Python</li>
-                        <li>SQL</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Tools &amp; Others</h3>
-                    <ul>
-                        <li>Git &amp; GitHub</li>
-                        <li>Responsive Design</li>
-                        <li>UI/UX Principles</li>
-                    </ul>
-                </div>
-            </div>
+    
+    <section id="projects" class="fade-in">
+      <h2>Internships and Projects</h2>
+      <div class="projects-list">
+        <div class="project-card">
+          <h3>C++ Intern at INTERNPE</h3>
+          <p><strong>Dec'24 - Jan'25</strong></p>
+          <ul>
+            <li>Developed various projects such as Guess the Number game, Tic Tac Toe game, Connect the Four Numbers game.</li>
+            <li>Well versed using vectors, OOPs in C++.</li>
+            <li>
+              Repository: <a href="https://github.com/bhar7av/BHARGAXC-.git" target="_blank">BHARGAXC- on GitHub</a>
+            </li>
+          </ul>
         </div>
+        <div class="project-card">
+          <h3>Built Website with Wordpress</h3>
+          <p>Coursera</p>
+          <ul>
+            <li>
+              Credential: <a href="https://www.coursera.org/account/accomplishments/verify/PUIZF9PXO5MN/" target="_blank">View Certificate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h2>Skills and Expertise</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> Python, C++, C</li>
+        <li><strong>Frameworks and Libraries:</strong> Django</li>
+      </ul>
+      <h2>Coursework Information</h2>
+      <ul>
+        <li>Deep Learning</li>
+        <li>Operating Systems</li>
+        <li>Programming and Data Structures</li>
+      </ul>
+      <h2>Positions of Responsibility</h2>
+      <ul>
+        <li>
+          <strong>Class Representative | ITE Branch</strong> (Aug'24 - Ongoing)
+          <ul>
+            <li>Headed a team of student representatives to address academic and administrative concerns.</li>
+            <li>Arranged meetings with mentors and maintain rapport with students.</li>
+          </ul>
+        </li>
+      </ul>
+      <h2>Awards and Achievements</h2>
+      <ul>
+        <li>Secured 15th Rank in JKCET conducted by JKBOPEE</li>
+        <li>Secured Second position in IEO conducted by SOF</li>
+        <li>Top performer at School, cleared NDA, NEET, JEE; Conference Out candidate from SSB</li>
+      </ul>
+      <h2>Extra Curricular Activities</h2>
+      <ul>
+        <li>Video editing: Adobe Premiere Pro, Capcut, After Effects</li>
+        <li>Content Creator: Engaged audience on Instagram, 3,000+ subscribers</li>
+        <li>Part-time mentor: Mentored 25+ CBSE students from Grades 10–12 in Science; organized school events, developed leadership and event management skills</li>
+      </ul>
     </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-            
-            <div class="contact-links">
-                <a href="mailto:bharagvkoushal289@gmail.com" class="contact-link">bharagvkoushal289@gmail.com</a>
-                <a href="https://linkedin.com/in/bhargavkoushal" class="contact-link">LinkedIn</a>
-                <a href="https://github.com/bhar7av" class="contact-link">GitHub</a>
-            </div>
-        </div>
+    
+    <section id="contact" class="fade-in">
+      <h2>Contact</h2>
+      <p>
+        I’m always open to new ideas and collaborations.<br>
+        <a href="mailto:bhargavkoushal17@gmail.com">Email Me</a> |
+        <a href="https://github.com/bhar7av" target="_blank">GitHub</a>
+      </p>
     </section>
-
-    <footer>
-        <div class="container">
-            <p>© <span id="year">2025</span> BHARGAV KOUSHAL. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-
-
-
-</body></html>
+  </main>
+  
+  <footer class="fade-in">
+    <p>© 2025 Bhargav. Crafted with simplicity.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
