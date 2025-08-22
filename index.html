@@ -2,187 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f9;
-    }
-    /* Navigation bar */
-    .navbar {
-      background: #333;
-      padding: 10px;
-      text-align: center;
-    }
-    .navbar a {
-      color: white;
-      margin: 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .navbar a:hover {
-      color: yellow;
-    }
-    header {
-      text-align: center;
-      padding: 20px;
-      background: #4CAF50;
-      color: white;
-    }
-    img {
-      width: 150px;
-      border-radius: 50%;
-      transition: 0.3s;
-    }
-    img:hover {
-      transform: scale(1.1);
-    }
-    section {
-      padding: 20px;
-    }
-    table {
-      width: 80%;
-      margin: auto;
-      border-collapse: collapse;
-    }
-    table, th, td {
-      border: 1px solid #333;
-      padding: 10px;
-      text-align: center;
-    }
-    form {
-      width: 80%;
-      margin: auto;
-      padding: 10px;
-      background: #fff;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    input, textarea {
-      width: 95%;
-      padding: 8px;
-      margin: 5px 0;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    input[type="submit"] {
-      background: #4CAF50;
-      color: white;
-      cursor: pointer;
-    }
-    input[type="submit"]:hover {
-      background: #45a049;
-    }
-    footer {
-      text-align: center;
-      background: #333;
-      color: white;
-      padding: 10px;
-      margin-top: 20px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Bhargav | Minimal Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Navigation -->
-  <div class="navbar">
-    <a href="#bio">Bio Data</a>
-    <a href="#skills">Skills</a>
-    <a href="#hobbies">Hobbies</a>
-    <a href="#contact">Contact</a>
-  </div>
-
-  <!-- Header -->
-  <header>
-    <h1>My Portfolio</h1>
-    <p>Hello! I am a B.Tech student at <b>NIT Srinagar</b>.</p>
-    <!-- Clickable Image -->
-    <a href="https://www.nitsri.ac.in/" target="_blank">
-      <img src="https://via.placeholder.com/150" alt="My Photo">
-    </a>
-    <p>(Click on my photo to visit NIT Srinagar website)</p>
+  <header class="fade-in">
+    <h1>Bhargav Koushal</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
-
-  <!-- Bio Data Section -->
-  <section id="bio">
-    <h2>Bio Data</h2>
-    <table>
-      <tr>
-        <th>Name</th>
-        <td>Bhargav</td>
-      </tr>
-      <tr>
-        <th>School (Class 10) Percentage</th>
-        <td>92%</td>
-      </tr>
-      <tr>
-        <th>Class 12 Percentage</th>
-        <td>89%</td>
-      </tr>
-      <tr>
-        <th>College</th>
-        <td>NIT Srinagar</td>
-      </tr>
-      <tr>
-        <th>B.Tech Percentage</th>
-        <td>85%</td>
-      </tr>
-    </table>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>My Skills (Unordered List)</h2>
-    <ul>
-      <li>C Programming</li>
-      <li>C++ and DSA</li>
-      <li>HTML Basics</li>
-      <li>Leadership</li>
-    </ul>
-  </section>
-
-  <!-- Hobbies Section -->
-  <section id="hobbies">
-    <h2>My Hobbies (Ordered List)</h2>
-    <ol>
-      <li>Reading Books</li>
-      <li>Coding</li>
-      <li>Playing Cricket</li>
-      <li>Listening to Music</li>
-    </ol>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <label>Your Name:</label><br>
-      <input type="text" name="name" required><br>
-      
-      <label>Your Email:</label><br>
-      <input type="email" name="email" required><br>
-      
-      <label>Message:</label><br>
-      <textarea rows="4" required></textarea><br>
-      
-      <input type="submit" value="Send">
-    </form>
-
-    <h3>Reference Links</h3>
-    <p>
-      <a href="mailto:example@gmail.com">Email</a> | 
-      <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | 
-      <a href="https://github.com" target="_blank">GitHub</a>
-    </p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Bhargav | All Rights Reserved</p>
+  
+  <main>
+    <section id="about" class="fade-in">
+      <h2>About Me</h2>
+      <p>
+        Hello, I’m Bhargav—a creative developer passionate about crafting minimal, elegant web experiences.<br>
+        I enjoy turning ideas into clean, interactive interfaces and learning new things every day.
+      </p>
+    </section>
+    
+    <section id="projects" class="fade-in">
+      <h2>Internships and Projects</h2>
+      <div class="projects-list">
+        <div class="project-card">
+          <h3>C++ Intern at INTERNPE</h3>
+          <p><strong>Dec'24 - Jan'25</strong></p>
+          <ul>
+            <li>Developed various projects such as Guess the Number game, Tic Tac Toe game, Connect the Four Numbers game.</li>
+            <li>Well versed using vectors, OOPs in C++.</li>
+            <li>
+              Repository: <a href="https://github.com/bhar7av/BHARGAXC-.git" target="_blank">BHARGAXC- on GitHub</a>
+            </li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3>Built Website with Wordpress</h3>
+          <p>Coursera</p>
+          <ul>
+            <li>
+              Credential: <a href="https://www.coursera.org/account/accomplishments/verify/PUIZF9PXO5MN/" target="_blank">View Certificate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h2>Skills and Expertise</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> Python, C++, C</li>
+        <li><strong>Frameworks and Libraries:</strong> Django</li>
+      </ul>
+      <h2>Coursework Information</h2>
+      <ul>
+        <li>Deep Learning</li>
+        <li>Operating Systems</li>
+        <li>Programming and Data Structures</li>
+      </ul>
+      <h2>Positions of Responsibility</h2>
+      <ul>
+        <li>
+          <strong>Class Representative | ITE Branch</strong> (Aug'24 - Ongoing)
+          <ul>
+            <li>Headed a team of student representatives to address academic and administrative concerns.</li>
+            <li>Arranged meetings with mentors and maintain rapport with students.</li>
+          </ul>
+        </li>
+      </ul>
+      <h2>Awards and Achievements</h2>
+      <ul>
+        <li>Secured 15th Rank in JKCET conducted by JKBOPEE</li>
+        <li>Secured Second position in IEO conducted by SOF</li>
+        <li>Top performer at School, cleared NDA, NEET, JEE; Conference Out candidate from SSB</li>
+      </ul>
+      <h2>Extra Curricular Activities</h2>
+      <ul>
+        <li>Video editing: Adobe Premiere Pro, Capcut, After Effects</li>
+        <li>Content Creator: Engaged audience on Instagram, 3,000+ subscribers</li>
+        <li>Part-time mentor: Mentored 25+ CBSE students from Grades 10–12 in Science; organized school events, developed leadership and event management skills</li>
+      </ul>
+    </section>
+    
+    <section id="contact" class="fade-in">
+      <h2>Contact</h2>
+      <p>
+        I’m always open to new ideas and collaborations.<br>
+        <a href="mailto:bhargavkoushal17@gmail.com">Email Me</a> |
+        <a href="https://github.com/bhar7av" target="_blank">GitHub</a>
+      </p>
+    </section>
+  </main>
+  
+  <footer class="fade-in">
+    <p>© 2025 Bhargav. Crafted with simplicity.</p>
   </footer>
-
+  
+  <script src="script.js"></script>
 </body>
 </html>
